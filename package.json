@@ -1,0 +1,20 @@
+{
+  "name": "translate-google-api",
+  "version": "1.0.1",
+  "description": "make module translate google api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fxc7",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^8.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "moment-timezone": "^0.5.34",
+    "morgan": "^1.10.0"
+  }
+}
