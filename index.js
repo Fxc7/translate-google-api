@@ -16,7 +16,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 app.use(morgan('dev'));
-app.use(express.static(process.cwd()));
+app.use(express.static('public'));
 app.use(expressLayout);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
