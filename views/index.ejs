@@ -1,26 +1,22 @@
-<script>
-  swal("hello gess :D", "Jangan Lupa Tersenyum di <%= ucapan %> Ini", "info");
-</script>
+<script> swal("hello gess :D", "Jangan Lupa Tersenyum di <%= ucapan %> Ini", "info");</script>
     <div class="testbox">
       <div class="body">
         <div class="banner"></div>
         <div class="item" align="center">
           <hr color="white">
-          <label for="country"><h2>Translate Ke Bahasa: </h2></label>
+          <label for="country">
+            <h2>Translate Ke Bahasa: </h2>
+          </label>
           <select id="country">
             <% for (let i = 0; i < language.length; i++) { %>
             <option value="<%= language[i].split(':')[0] %>"> <%= language[i].split(':')[1] %> </option>
             <% } %>
           </select>
         </div>
-        <div class="btn-block">
           <center>
             <input id="input" placeholder="Ketik disini..." type="text" class="name-item">
-          </center>
-        <div class="item">
+          <button class="btn-xcoders" type="submit" onclick="execute()">SUBMIT</button>
           <p class="response" align="center"></p>
-        </div>
-          <button id="submit" type="submit" onclick="execute()">SUBMIT</button>
           <hr color="white">
           <br>
           <p>
@@ -30,6 +26,6 @@
               </b>
             </i>
           </p>
-        </div>
+        </center>
       </div>
     </div>
