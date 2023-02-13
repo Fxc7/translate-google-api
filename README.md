@@ -1,6 +1,12 @@
 <h1 align="center">Hi 👋 Om</h1>
 <h3 align="center">Jangan lupa star ye anj:v</h3>
 
+<h3> View On index page </h3>
+<img width="150px" height="250px" src="https://i.ibb.co/rbhp2wD/view.jpg" alt="view">
+<h3> View On result page </h3>
+<img width="150px" height="250px" src="https://i.ibb.co/7yb08V2/result.jpg" alt="result">
+
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Fxc7&label=Profile%20views&color=0e75b6&style=flat" alt="Fxc7" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Fxc7" alt="Fxc7" /></a> </p>
